@@ -351,7 +351,7 @@ const taskDefinition = new awsNative.ecs.TaskDefinition("taskDefinition", {
         Name: "pulumi-taskDefinition",
     })
 }, {
-    dependsOn: natGW1 // 
+    dependsOn: natGW1 // コンテナイメージをNat Gateway経由でinternetに取りに行くので必須にしておく
 });
 
 // Create a Fargate service with ALB configuration
