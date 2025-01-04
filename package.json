@@ -1,0 +1,13 @@
+{
+    "name": "fargate_spot_alb_nat",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.66.1",
+        "@pulumi/aws-native": "^1.18.0",
+        "@pulumi/pulumi": "^3.144.1"
+    }
+}

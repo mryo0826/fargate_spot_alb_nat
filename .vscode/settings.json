@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.ts": "explicit"
+    },
+    "eslint.format.enable": true
+}
